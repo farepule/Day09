@@ -1,15 +1,16 @@
 // Only change code below this line
-function myBoolean(myState) {
-	if(myState){
-		return "true";
-	}else{
-	return "false";
+function myFunction(myParametar) {
+	if(myParametar){
+		true;
+		return "My parametar is true!";
+	}
+		false;
+	return "My parametar is false!";
 }
-}
-console.log(myBoolean(true));
-console.log(myBoolean(false));
-myBoolean(true);
-myBoolean(false);
+myFunction(true);
+myFunction(false);
+console.log(myFunction(true));
+console.log(myFunction(false));
 
 
 // Only change code above this line
